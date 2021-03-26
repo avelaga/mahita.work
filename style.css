@@ -1,0 +1,46 @@
+.header {
+  width:100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-img {
+ width: calc(80vw-10px);
+ padding: 10px;
+}
+
+.header-img-size {
+  width: 70vw;
+}
+
+.link-size {
+  width: 60%;
+}
+
+.link-menu {
+  width: 20vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.gallery {
+ display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.gallery-img {
+  width: 40vw;
+  padding: 10px;
+}
+
+.link {
+  width: 20vw;
+  padding-left: 5px;
+}
