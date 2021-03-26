@@ -44,3 +44,35 @@
   width: 20vw;
   padding-left: 5px;
 }
+
+/* https://css-tricks.com/seamless-responsive-photo-grid/ */
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 2;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    2;
+  -moz-column-gap:      0px;
+  column-count:         2;
+  column-gap:           0px;  
+
+  width: 70vw;
+  margin: auto;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 90% !important;
+  height: auto !important;
+  padding-bottom: 25px !important;
+}
+
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
