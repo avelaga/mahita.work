@@ -45,6 +45,24 @@
   padding-left: 5px;
 }
 
+/* https://www.andyhooke.co.uk/how-to-add-a-paint-stroke-highlight-to-text-using-css-in-divi/ */
+
+.link:hover {
+  background-image: url("orange-brush.png");
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+}
+
+.content {
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* https://css-tricks.com/seamless-responsive-photo-grid/ */
 
 #photos {
@@ -52,11 +70,11 @@
   line-height: 0;
    
   -webkit-column-count: 2;
-  -webkit-column-gap:   0px;
+  -webkit-column-gap:   25px;
   -moz-column-count:    2;
-  -moz-column-gap:      0px;
+  -moz-column-gap:      25px;
   column-count:         2;
-  column-gap:           0px;  
+  column-gap:           25px;  
 
   width: 70vw;
   margin: auto;
@@ -64,7 +82,7 @@
 
 #photos img {
   /* Just in case there are inline attributes */
-  width: 90% !important;
+  width: 100% !important;
   height: auto !important;
   padding-bottom: 25px !important;
 }
