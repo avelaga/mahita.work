@@ -1,5 +1,4 @@
 .header {
-  width:100vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -61,6 +60,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 /* https://css-tricks.com/seamless-responsive-photo-grid/ */
@@ -93,4 +93,12 @@ body {
   -webkit-column-count: 1;
   column-count:         1;
   }
+}
+
+.about-loop {
+  width: 70vw;
+}
+
+.bio {
+  margin-top: 20px;
 }
